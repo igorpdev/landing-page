@@ -8,8 +8,8 @@ let emailOk
 let assuntoOk
 
 function validaNome() {
+    let textNome = window.document.querySelector('#txtNome')
     if(nome.value.length < 3) {
-        let textNome = window.document.querySelector('#textNome')
         
         textNome.innerHTML = 'Nome inválido!'
         nomeOk = false
@@ -22,22 +22,22 @@ function validaNome() {
 
 function validaEmail() {
     if(email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1) {
-        let textEmail = window.document.querySelector('#textEmail')
+        let textEmail = window.document.querySelector('#txtEmail')
 
-        textEmail.innerHTML = 'E-mail invalido!'
+        textEmail.innerHTML = 'E-mail inválido!'
         emailOk = false
 
     } else {
-        textEmail.innerHTML = 'E-mail valido!'
+        textEmail.innerHTML = 'E-mail válido!'
         emailOk = true
     }
 }
 
 function validaAssunto() {
     if(assunto.value.length >= 100) {
-        let textAssunto = window.document.querySelector('#textAssunto')
+        let textAssunto = window.document.querySelector('#txtAssunto')
 
-        textAssunto.innerHTML = 'O texto ultrpassou 100 caracteres'
+        textAssunto.innerHTML = 'O texto ultrapassou 100 caracteres'
         assuntoOk = false
 
     } else {
@@ -46,7 +46,7 @@ function validaAssunto() {
 }
 
 function enviar() {
-    if(nomeOk == true && emailOk == true && assuntoOk == true) {
+    if(nomeOk && emailOk && assuntoOk) {
         alert('Mensagem enviada!')
 
     } else {
