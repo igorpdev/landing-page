@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootcamp Generation Brasil</title>
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+  <div class="bg-secondary">
+  
+    <!--Menu-->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+      <a class="navbar-brand text-white" href="#">Generation</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado"
+        aria-expanded="false"
+        aria-label="Alterna navegação"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="/index.html"
+              >Home <span class="sr-only">(página atual)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Back-end
+            </a>
+            <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item bg-dark text-white" href="#java">Java</a>
+              <a class="dropdown-item bg-dark text-white" href="#spring">Spring</a>
+              <a class="dropdown-item bg-dark text-white" href="#mysql">MySQL</a>
+            </div>
+          </li>
+          <div class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Front-end
+            </a>
+            <div
+              class="dropdown-menu bg-dark"
+              aria-labelledby="dropdownMenuLink"
+            >
+              <a class="dropdown-item bg-dark text-white" href="#html">HTML</a>
+              <a class="dropdown-item bg-dark text-white" href="#bootstrap">Bootstrap</a>
+              <a class="dropdown-item bg-dark text-white" href="#angular">Angular</a>
+            </div>
+          </div>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="https://discord.gg/anu7yEnK"
+              target="_blank"
+              >Discord Turma 18</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="#contato"
+              >Contato</a
+            >
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2 bg-dark shadow p-3"
+            type="search"
+            placeholder="Pesquisar"
+            aria-label="Pesquisar"
+          />
+          <button
+            class="btn btn-outline-light my-2 my-sm-0 shadow"
+            type="submit"
+          >
+            Pesquisar
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!--/Menu-->
+    
+    <!--Carrosel-->
+    <div class="container bg-secondary">  
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="assets/img/slide1.jpg"
+              alt="Primeiro Slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Programação</h5>
+              <p>Liberte a sua criatividade</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="assets/img/slide2.png"
+              alt="Segundo Slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Back-end</h5>
+              <p>Um show não acontece sem os bastidores</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="assets/img/slide3.png"
+              alt="Terceiro Slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Front-end</h5>
+              <p>Conecte-se com seu usuário</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleFade"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleFade"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+    <!--/Carrosel-->
+
+    <!--Texto e Vídeo-->
+    <div class="container bg-secondary jumbotron">
+      <div class="row w-100 d-flex justify-content-center align-items-center">
+        <div class="d-flex justify-content-center">
+          <div class="h2 mt-4 text-white">Conheça o Bootcamp da Generation Brasil</div>
+        </div>
+
+        <div class="col-6">
+          <div class="border border-light m-3 shadow p-3 text-white">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque
+            culpa animi, blanditiis et quidem voluptate tempora reprehenderit
+            alias sapiente ullam? Animi officia atque soluta asperiores ea
+            inventore impedit quae minima ad necessitatibus aperiam nulla veniam
+            minus assumenda accusantium, similique quo. Minima qui similique
+            incidunt odit eaque. Porro sint cumque ipsam voluptatum ut! Incidunt
+            a quas, ullam sint reiciendis quo soluta maiores distinctio quos
+            porro iusto ratione voluptatem illum esse nemo dolore molestias
+            voluptatibus debitis laborum placeat rerum eaque et. Fuga facilis
+            esse accusamus consequatur numquam ea pariatur quae nemo est
+            corrupti. Sequi, nemo asperiores. Ullam soluta voluptates
+            consequuntur dolorem dolor?
+          </div>
+        </div>
+        <div class="col-6 mt-3 w-100 shadow border-light p-3 embed-responsive embed-responsive-16by9">
+          <iframe
+            width="510"
+            height="310"
+            src="https://www.youtube.com/embed/kdGWKGM7yoA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!--Cards-->
+    <div class="container bg-secondary">
+      <div class="h1 d-flex justify-content-center align-items-center text-white">Algumas de nossas tecnologias exploradas</div>
+      <div class="row w-100 d-flex justify-content-center align-items-center">
+        <div class="col-4 d-flex justify-content-center">
+          <div class="card m-4 shadow" style="width: 18rem" id="java">
+            <img class="card-img-top" src="/assets/img/java.png" alt="Java" />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe,
+                libero?
+              </p>
+              <a
+                href="https://www.java.com/pt-BR/"
+                target="_blank"
+                class="card-link"
+                >Documentação</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 d-flex justify-content-center">
+          <div class="card m-4 shadow" style="width: 18rem" id="spring">
+            <img
+              class="card-img-top"
+              src="/assets/img/spring.png"
+              alt="Spring"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis, aut.
+              </p>
+              <a href="https://spring.io" target="_blank" class="card-link"
+                >Documentação</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 d-flex justify-content-center">
+          <div class="card m-4 shadow" style="width: 18rem" id="mysql">
+            <img class="card-img-top" src="/assets/img/mysql.png" alt="MySQL" />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dolorum, ea!
+              </p>
+              <a href="https://www.mysql.com" target="_blank" class="card-link"
+                >Documentação</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="container">
+    <class class="container bg-secondary">
+      <div class="row w-100 d-flex justify-content-center align-items-center">
+        <div class="col-4 d-flex justify-content-center">
+          <div class="card m-4 shadow" style="width: 18rem" id="html">
+            <img class="card-img-top" src="/assets/img/html.png" alt="HTML" />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, quae?
+              </p>
+              <a
+                href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+                target="_blank"
+                class="card-link"
+                >Documentação</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+          <div class="card m-4 shadow" style="width: 18rem" id="bootstrap">
+            <img
+              class="card-img-top"
+              src="/assets/img/bootstrap.jpg"
+              alt="Bootstrap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellendus, eaque.
+              </p>
+              <a href="https://www.getbootstrap.com.br" target="_blank" class="card-link"
+                >Documentação</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 d-flex justify-content-center">
+          <div class="card m-4 shadow" style="width: 18rem" id="angular">
+            <img
+              class="card-img-top"
+              src="/assets/img/angular.png"
+              alt="Angular"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                placeat.
+              </p>
+              <a href="https://angular.io" target="_blank" class="card-link"
+                >Documentação</a
+              >
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+    <!--/Cards-->
+
+    <!--Formulário de Contato-->
+    <div class="jumbotron jumbotron-fluid bg-light shadow p-3">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col">
+            <h1 class="display-4" id="contato">Entre em contato</h1>
+            <div class="row d-flex align-items-start">
+              <div class="col-md-6">
+                <form>
+                  <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome" onkeyup='validaNome()'>
+                    <div id='txtNome'></div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com" onkeyup='validaEmail()'>
+                    <div id='txtEmail'></div>
+                  </div>
+                 
+                  <div class="form-group">
+                    <label for="assunto">Assunto</label>
+                    <textarea class="form-control" id="assunto" rows="3" onkeyup='validaAssunto()'></textarea>
+                    <div id='txtAssunto'></div>
+                  </div>
+          
+                  <div class="form-group d-flex justify-content-end">
+                    <button class="btn btn-outline-dark botao" onclick="enviar()">Enviar</button>
+                  </div>
+                </form>
+              </div>
+            <div class="col-md-6 shadow-sm p-1">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.951085180337!2d-46.63614414997371!3d-23.534261666400912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5858e87e68e7%3A0xdcc3da8573212301!2sPinacoteca%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1619182570215!5m2!1spt-BR!2sbr" width="555" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/Formulário-->
+  </div>
+
+    
+
+  </class>
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4 mt-4">
+        <!-- Linkedin -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://www.linkedin.com/in/igorjps/"
+          role="button"
+          target="_blank"
+          ><i class="fab fa-linkedin-in">Linkedin</i></a
+        >
+        <!-- Github -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://www.github.com/igorpdev"
+          role="button"
+          ><i class="fab fa-github">Github</i></a
+        >
+        <!-- Discord -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://discord.gg/anu7yEnK"
+          role="button"
+          target="_blank"
+          ><i img="fab fa-github">Discord</i></a
+        >
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Text -->
+      <section class="mb-2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+          distinctio earum repellat quaerat voluptatibus placeat nam, commodi
+          optio pariatur est quia magnam eum harum corrupti dicta, aliquam
+          sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      Todos os direitos reservados © 2021: Igor Pereira
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+  <script src="/assets/js/script.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
